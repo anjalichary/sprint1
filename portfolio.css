@@ -1,0 +1,176 @@
+/*navgiation bar*/
+a { text-decoration: none; color:black; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: n18e; }
+a:hover, a:active { text-decoration: none; }
+.topnav a {
+  color: black;
+  font-weight: 800;
+  margin-right: 50px;
+  float: right;
+  padding: 0px -40px;
+  margin-top: 50px; 
+  margin-bottom: 100px;
+  text-decoration: none;
+  font-size: 16px;  
+  font-family: Filson Pro;
+  font-weight: normal;
+}
+.topnav a:hover {
+  color: #91e0ff;
+  border-bottom:1px solid #91e0ff;
+}
+
+/* * {
+  box-sizing: border-box;
+} */
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    background-color: #faf8f8;
+  
+
+}
+
+
+.img2{
+  text-align: center;
+}
+
+
+.logo{
+    float: left;
+    padding: 0px 40px;
+    margin-top: 30px; 
+    margin-bottom: 100px;
+}
+
+
+  header img {
+    margin-left: 60%;
+    transform: translateX(-50%);
+    width:100%;
+    border-radius: 50px;
+  }
+
+
+
+
+
+
+  mark.blue {
+    color: #e5b2a5;
+    background: none;
+}
+
+h1{
+    font-family: 'New Spirit';
+    color: #91e0ff;
+    font-size: 30px;
+}
+
+h2{
+    font-family: Filson Pro;
+    font-weight:normal;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+h3{
+    font-family: Filson Pro;
+    font-weight:normal; 
+    color: #91e0ff;
+    font-size: 24px;
+}
+
+h4{
+    font-family: Filson Pro;
+    font-weight:normal;
+    line-height: none;
+}
+
+h5{
+    font-family: Filson Pro;
+    font-weight:normal; 
+    font-size: 18px;
+    line-height: 1.6
+}
+  
+      .sidebar {
+          grid-area: sidebar;
+      }
+  
+      .content {
+          grid-area: content;
+      }
+  
+
+      .wrapper {
+          display: grid;
+          margin-left: 150px; 
+          margin-right: 150px; 
+          margin-bottom: 100px;
+          grid-gap: 20px;
+          grid-template-columns: 30% 70%;
+          grid-template-areas:
+                 "....... header  header"
+                               "sidebar content content";
+                               box-sizing: border-box;
+
+      }
+      
+ 
+      .column-left{ float: left; width: 33.333%; }
+      .column-right{ float: right; width: 33.333%; }
+      .column-center{ display: inline-block; width: 33.333%; }
+
+      .container {
+        margin-left: 150px; 
+        margin-right: 150px; 
+        display: flex;
+        column-gap: 100px;
+        margin-bottom: 100px;
+     
+      }
+  
+      .wrapper2 {
+        display: grid;
+        margin-top: 150px;
+        margin-left: 150px; 
+        margin-right: 150px; 
+        grid-gap: 20px;
+       
+        grid-template-columns: 30% 70%;
+        grid-template-areas:
+               "....... header  header"
+                             "sidebar content content";
+                             box-sizing: border-box;
+    }
+
+    .column-center{
+      background-color: white;
+      border-radius: 40px; 
+      padding: 20px;
+    }
+
+    .column-left{
+      background-color: white;
+      border-radius: 40px; 
+      padding: 20px;
+    }
+
+    .column-right{
+      background-color: white;
+      border-radius: 40px; 
+      padding: 20px;
+    }
+   
+  }
+
+  
